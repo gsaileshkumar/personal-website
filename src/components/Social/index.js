@@ -100,9 +100,7 @@ const Social = () => {
                             color: "var(--gray7)",
                           }}
                         >
-                          {moment(new Date(post.timestamp)).format(
-                            "MMM Do YYYY"
-                          )}
+                          {moment(post.timestamp).format("MMM Do YYYY")}
                         </span>
                       </div>
                     </a>

@@ -1,4 +1,5 @@
 import React from "react"
+import { ArrowCircleRight } from "styled-icons/heroicons-solid"
 
 import Content from "../Common/Content"
 import Wrapper from "../Common/Wrapper"
@@ -20,7 +21,12 @@ const Contact = () => (
                 href="https://www.linkedin.com/in/gsaileshkumar/"
                 target="__blank"
               >
-                Connect with me.
+                Connect with me
+                <ArrowCircleRight
+                  height="20px"
+                  width="20px"
+                  style={{ marginLeft: "5px" }}
+                />
               </a>
             </p>
           </InfosWrapper>
