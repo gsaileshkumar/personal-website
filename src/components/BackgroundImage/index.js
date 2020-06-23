@@ -23,7 +23,7 @@ const BackgroundSection = ({ children }) => (
       return (
         <BackgroundImage
           fluid={imageData}
-          backgroundColor={`#5A67D8`}
+          backgroundColor={`#4c5fb0`}
           durationFadeIn={50}
         >
           {children}
