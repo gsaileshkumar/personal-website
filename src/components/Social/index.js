@@ -5,7 +5,7 @@ import Content from "../Common/Content"
 import Wrapper from "../Common/Wrapper"
 import Placeholder from "../Common/Placeholder"
 
-import { SocialWrapper } from "./styled"
+import { SocialWrapper, SocialContainer } from "./styled"
 
 const Social = () => {
   const [socialData, setSocialData] = useState(null)
@@ -26,15 +26,7 @@ const Social = () => {
           {socialData ? (
             <SocialWrapper>
               <h1>Twitter</h1>
-              <div
-                style={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  fontSize: "1rem",
-                  lineHeight: 1.3,
-                  justifyContent: "space-between",
-                }}
-              >
+              <SocialContainer>
                 {twitterData
                   .map(tweet => (
                     <a
@@ -72,18 +64,10 @@ const Social = () => {
                       </div>
                     </a>
                   ))
-                  .filter((_, i) => i < 6)}
-              </div>
+                  .filter((_, i) => i < 3)}
+              </SocialContainer>
               <h1>Instagram</h1>
-              <div
-                style={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  fontSize: "1rem",
-                  lineHeight: 1.3,
-                  justifyContent: "space-between",
-                }}
-              >
+              <SocialContainer>
                 {instaData
                   .map(post => (
                     <a
@@ -124,7 +108,7 @@ const Social = () => {
                     </a>
                   ))
                   .filter((_, i) => i < 3)}
-              </div>
+              </SocialContainer>
             </SocialWrapper>
           ) : (
             <Placeholder times={4} />

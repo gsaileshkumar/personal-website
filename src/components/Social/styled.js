@@ -10,3 +10,14 @@ export const SocialWrapper = styled.div`
         flex-wrap: wrap;
     `}
 `
+export const SocialContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  line-height: 1.3;
+  justify-content: space-between;
+
+  ${media.lessThan("small")`
+    justify-content: center;
+  `}
+`
