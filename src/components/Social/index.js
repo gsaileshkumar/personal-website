@@ -123,7 +123,7 @@ const Social = () => {
                       </div>
                     </a>
                   ))
-                  .filter((_, i) => i < 6)}
+                  .filter((_, i) => i < 3)}
               </div>
             </SocialWrapper>
           ) : (
