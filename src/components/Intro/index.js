@@ -32,7 +32,7 @@ const Image = () => {
       placeholderImage: file(relativePath: { eq: "intro/photo2.png" }) {
         childImageSharp {
           fluid(maxWidth: 386) {
-            ...GatsbyImageSharpFluid_noBase64
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -43,6 +43,7 @@ const Image = () => {
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
       imgStyle={{ objectPosition: "top center" }}
+      durationFadeIn={50}
     />
   )
 }
