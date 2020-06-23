@@ -5,10 +5,7 @@ export const SocialWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  ${media.lessThan("medium")`
-        flex-wrap: wrap;
-    `}
+  flex-wrap: wrap;
 `
 export const SocialContainer = styled.div`
   display: flex;

@@ -3,8 +3,8 @@ import styled from "styled-components"
 
 const StyledPlaceholder = styled.div`
   margin: 1rem auto;
-  max-width: 200px;
-  min-height: 100px;
+  width: 200px;
+  height: 100px;
   background-color: #f7f6f6;
   border-radius: 20px;
 
@@ -32,11 +32,13 @@ const AnimatedBackground = styled.div`
 `
 
 export default ({ times = 1 }) => {
-  return Array.from({ length: times }, (_, i) => (
-    <div key={i}>
-      <StyledPlaceholder>
-        <AnimatedBackground />
-      </StyledPlaceholder>
+  return (
+    <div style={{ display: "flex", flexWrap: "wrap" }}>
+      {Array.from({ length: times }, (_, i) => (
+        <StyledPlaceholder key={i}>
+          <AnimatedBackground />
+        </StyledPlaceholder>
+      ))}
     </div>
-  ))
+  )
 }
