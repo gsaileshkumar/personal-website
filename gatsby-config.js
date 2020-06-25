@@ -3,6 +3,7 @@ module.exports = {
     title: `Sailesh Kumar`,
     description: `Hey there, I'm Sailesh Kumar. Contact me on LinkedIn https://www.linkedin.com/in/gsaileshkumar`,
     author: `@gsaileshkumar`,
+    siteUrl: `https://saileshkumar.com`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -37,6 +38,7 @@ module.exports = {
         trackingId: "UA-146830356-2",
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
