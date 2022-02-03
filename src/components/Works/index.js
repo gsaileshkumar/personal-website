@@ -15,11 +15,18 @@ const Works = () => (
           I am a Software Engineer at <b>ChordX.</b>
         </p>
         <p>
-          My handy techs include Node.js, Postgres, React.js, Angular and Python
+          Love to create software that is useful for human and make lives easier. 
+          I would like to solve complex problems right from the ground by doing clear research 
+          on the topic and understanding the bottleneck, finally come up with an acceptable solution. 
         </p>
         <p>
-          Tech stack that I'm recently working on is based on TICK stack.
-          Additionally using Python, Golang, Kafka and Grafana
+          I am a tech geek and love to explore all the latest development in the web community.
+          Blockchain enthusiasts and explorer.
+        </p>
+        <p>
+          Technologies that I love experimenting and use in my everyday life includes Next.js, web3.js, 
+          Hardhat, ethers.js, Truffle, Solidity, Python, NodeJS, Azure, InfluxDB, AWS, Apache Kafka, Arduino, 
+          Raspberry Pi, ESPs, Mosquitto MQTT and Node-Red
         </p>
 
         {/* <WorksContainer>
