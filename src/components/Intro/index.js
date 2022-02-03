@@ -19,7 +19,7 @@ const Intro = () => (
               Sailesh Kumar
             </b>
           </h1>
-          <h3>SOFTWARE ENGINEER - Singapore</h3>
+          <h3>FULL STACK ENGINEER - Singapore</h3>
         </header>
       </IntroContainer>
     </Wrapper>
