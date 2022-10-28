@@ -11,9 +11,9 @@ const links = [
     label: "Contact",
     url: "/contact",
   },
-  {
-    label: "Social",
-    url: "/social",
-  },
+//   {
+//     label: "Social",
+//     url: "/social",
+//   },
 ]
 export default links
